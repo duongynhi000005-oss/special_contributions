@@ -1,0 +1,882 @@
+"ID","input_prompt","answer"
+"07ed0b91d8c6","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+This document describes the Sv interface related procedures, message parameters and protocol specifications. The Sv messages are based on GTP. The message format, IE coding, and protocol error handling for Sv is per GTP as specified in 3GPP TS 29.274 [3].
+The following GTPv2-C messages support path management for the Sv interface: - Echo Request
+Q: What underlying protocol are the Sv interface messages based on? (according to 3GPP Rel-19, TS 29.280 v19.0.0)
+A) SIP
+B) SCTP
+C) DIAM
+D) GTP","D"
+"08d093af2b62","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Date=2023-03; TSG=SA#99; TSG Doc=SP-230293; CR=0168; Rev=3; Cat=F; Subject/Comment=Add ""supplementary location information source"" parameter in related information flows; New version=18.4.0
+Q: Which SP identifier in the table corresponds to the addition of the “supplementary location information source” parameter in related information flows? (according to 3GPP Rel-19, TS 23.434 v19.5.0)
+A) 0169
+B) 0168
+C) 0154
+D) 0170
+E) 0153","B"
+"09436ccaeebf","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Range bound=maxnoofCAGsupported; Explanation=Maximum no. of CAG-Identifiers broadcast in a cell. Value is 12.
+Q: According to the specification, what is the maximum number of CAG‑Identifiers that can be broadcast in a cell? (according to 3GPP Rel-19, TS 38.473 v19.2.0)
+A) 16
+B) 12
+C) 10","B"
+"0ad222e3e40e","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The location management server may obtain location information from the GMLC via Le reference point defined in clause 4.4.1 of 3GPP TS 23.273 [50]. The location management server may optionally obtains location information from the 3rd party location server via LM-3P reference point.
+The location management server is a functional entity that receives and stores user location information and provides user location information to the vertical application server. The location management server may also acquire location information provided by PLMN operator via T8, N33, or Le reference points. The location management service may optionally obtain location information from 3 rd party location servers via LM-3P reference point. The LM-3P reference point is out of scope of this specification.
+Q: The location management server may obtain location information from the GMLC via the Le reference point. (according to 3GPP Rel-19, TS 23.434 v19.5.0)","TRUE"
+"0b404baea125","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Type=TS; Number=23.141; Title=Presence service; Architecture and functional description; Group=S2; For publication?=YES
+Q: Which TS specification number in the list corresponds to the title “Presence service; Architecture and functional description”? (according to 3GPP Rel-19, TS 21.202 v19.1.0)
+A) TS 22.111
+B) TS 23.141
+C) TS 22.141
+D) TS 22.101","B"
+"0d131dcc2250","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+stateDiagram-v2
+    [*] --> MI_wait_VLR_response : MI wait VLR response
+    MI_wait_VLR_response --> USSD_response_VLR : USSD response (VLR)
+Q: According to the state diagram, which state is entered directly after the “MI_wait_VLR_response” state when a USSD request is sent to the VLR? (according to 3GPP Rel-19, TS 23.090 v19.0.0)
+A) USSD response (VLR)
+B) USSD request (VLR)
+C) release (VLR)","A"
+"10976b0ada2c","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+- 7) jitter information (optional),
+Q: Jitter information is a mandatory parameter in the TSCAI. (according to 3GPP Rel-19, TS 26.822 v19.1.0)","FALSE"
+"172aefe17e87","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+If the `heartbeatPeriod` specified is the same as the current value in IRPAgent, the operation shall fail.
+Assertion Name=noconflictingHeartbeatPeriod; Definition=The heartbeatPeriod specified is not same as the current value in IRPAgent.
+Q: When the `heartbeatPeriod` supplied to the `setHeartbeatPeriod` operation is identical to the IRPAgent’s current heartbeatPeriod, the operation shall fail. (according to 3GPP Rel-19, TS 32.352 v19.0.0)","TRUE"
+"18e2ee620b4c","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+A.1.7S.2: P2A2P ADC is established for scene description retrieval and update (Figure A.2.1-1 steps B and C).
+A.1.7S.1: P2A ADC for Base Avatar delivery (D.2a.1)
+A.1.7S.2: P2A2P ADC for Scene Description (B, C)
+A.1.7S.3: P2P ADC for pose information and/or feedback (D.4a.1, D.4a.5)
+Receiving UE Centric
+A.1.7R.1: P2A ADC for Base Avatar delivery (D.2b.1)
+A.1.7R.2: P2A2P ADC for Scene Description (B, C)
+alt#1a Animation Data Generation in sending UE
+A.1.7R.3a: P2P ADC for Avatar Animation Data (D.3a.2)
+alt#1b Animation Data Generation in Network
+A.1.7R.3b: RTP stream for animation source data
+A.1.7R.4b: P2A ADC for Avatar Animation data (D.3b.3)
+Q: In the Receiving UE Centric section, which step specifies the use of a P2A2P ADC for Scene Description? (according to 3GPP Rel-19, TS 26.264 v19.2.0)
+A) A.1.7R.5
+B) A.1.7R.2
+C) A.1.7R.3a
+D) A.1.7N.2a
+E) A.1.7N.3","B"
+"1dd232e1b1bf","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+NrmRoot:
+  oneOf:
+    - type: object
+      properties:
+        SubNetwork:
+          $ref: '#/components/schemas/SubNetwork-Multiple'
+This definition needs to be modified to produce the following schema definition that allows only ""SubNetwork"" as root class.
+Q: According to the modified **NrmRoot** schema definition, which root class is allowed? (according to 3GPP Rel-19, TS 28.623 v19.3.0)
+A) ManagedElem
+B) TopClass
+C) RootNode
+D) SubNetwork
+E) NetworkRoot","D"
+"1eb5c0936d52","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+BS D2R channel bandwidth (KHz)=200; Reference measurement channel=A-FR1-A1-2; Reference sensitivity power level, P_{\text{REFSENS}} (dBm)=-91.5 | NOTE: Reference sensitivity power level is defined based on the CW power at the BS antenna connector as -38dBm without the cancellation of CW phase noise considered.
+Bandwidth=Minimum number of measurement points; BS channel bandwidth $BW_{\text{Channel}}$ (kHz) (200)=4; 400=8; 600=12; 800=16
+Q: For a BS D2R channel bandwidth of 200 kHz, the reference sensitivity power level for measurement channel A‑FR1‑A1‑2 is –91.5 dBm. (according to 3GPP Rel-19, TS 38.195 v19.0.0)","TRUE"
+"23cf46d1a0f2","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+NOTE 2: There is no change to the maximum number of held calls allowed for the Multicall supplementary service. The maximum number of held calls is still 1 per a subscriber.
+Q: What is the maximum number of held calls allowed for a subscriber using the Multicall supplementary service? (according to 3GPP Rel-19, TS 22.135 v19.0.0)
+A) Four per subscriber
+B) Three per subscriber
+C) Two per subscriber
+D) One per subscriber","D"
+"2523ba987dda","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+5G Advanced logo
+3GPP logo
+Q: 32.322 defines the Solution Set (SS) definitions for the Test Management Integration Reference Point (IRP). (according to 3GPP Rel-19, TS 32.322 v19.0.0)","TRUE"
+"25a0ae28e99e","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+NOTE 1: The multicast address(es) nominated by the MB-SMF are included in the DVB-MABR multicast server configuration instance document passed at reference point $C_{MS}$ . (This includes the transport parameters for each multicast transport session, plus those for the multicast gateway configuration transport session.)
+As part of this interaction, the multicast address(es) to be used in the data plane are nominated by the MB-SMF and returned to the “MBSF-like” subfunction.
+Q: The multicast addresses nominated by the MB‑SMF are included in the DVB‑MABR multicast server configuration instance document passed at reference point C_MS. (according to 3GPP Rel-19, TS 26.802 v19.1.0)","TRUE"
+"275de743e021","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Col1=Mc; Col2=Interface between the server and the media gateway.
+For the purposes of the present document, the following symbols apply:
+Q: The symbol “Mc” denotes the interface between the server and the media gateway. (according to 3GPP Rel-19, TS 29.205 v19.0.0)","TRUE"
+"294fc53ee135","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+BS type 1-C: NR base station operating at FR1 with requirements set consisting only of conducted requirements defined at individual *antenna connectors*
+The *BS type 1-C* requirements of the present document shall be met with the ancillary RF amplifier fitted. At tests according to clauses 6 and 7 for TX and RX respectively, the ancillary amplifier is connected to the BS by a connecting network (including any cable(s), attenuator(s), etc.) with applicable loss to make sure the appropriate operating conditions of the ancillary amplifier and the BS. The applicable connecting network loss range is declared by the manufacturer (D.35).
+Q: According to the specification, what does the term **BS type 1‑C** describe? (according to 3GPP Rel-19, TS 38.195 v19.0.0)
+A) NR base station operating at FR2 with requirements set that includes both conducted and radiated requirements specified at the antenna ports
+B) NR base station operating at FR1 with requirements set consisting only of conducted requirements defined at individual antenna connectors
+C) NR base station operating at FR1 that supports multiple carriers and requires both hardware and software verification for each antenna connector
+D) NR base station operating at FR1 with a conducted‑only requirement set but applies to the entire antenna array rather than individual connectors","B"
+"297b6238c3e7","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+For the case where an Evolved ProSe Remote UE is trying to access the network via an Evolved ProSe UE-to-Network Relay, the following requirements apply:
+- Access control for CSFB shall not apply to an Indirect 3GPP Communication;
+- ACB, EAB and ACDC shall apply when the Evolved ProSe UE-to-Network Relay is in IDLE mode and when the access control information for the respective access control is broadcast by the network;
+- SSAC shall apply when the Evolved ProSe UE-to-Network Relay is either in IDLE or CONNECTED mode and when the access control information for SSAC is broadcast by the network;
+- The interaction between ACDC, EAB and ACB (defined in paragraph 4.3.5.2.1) shall be based on the Evolved ProSe Remote UE's configuration;
+Change history=SP-48; Col2=SP-100442; Col3=S1-101221r; Col4=22.011; Col5=0161; Col6=4; Col7=Rel-10; Col8=B; Col9=Access control for CSFB; Col10=9.3.0; Col11=10.0.0; Col12=TEI10
+Q: Access control for CSFB shall apply to an Indirect 3GPP Communication. (according to 3GPP Rel-19, TS 22.011 v19.5.0)","FALSE"
+"2cd929d6a9f8","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The following AVPs shall be present within the Monitoring-Event-Report AVP when the UE Reachability event is reported: - Monitoring-Type set to either UE\_REACHABILITY (1) or UE\_REACHABILITY\_AND\_IDLE\_STATUS\_INDICATION (8), as received in the configuration request.
+The following AVPs may be present within the Monitoring-Event-Report AVP when the UE Reachability event is reported:
+- Maximum-UE-Availability-Time
+- Reachability-Cause
+Q: When a UE Reachability event is reported, the Monitoring-Type AVP must be set to either UE_REACHABILITY (1) or UE_REACHABILITY_AND_IDLE_STATUS_INDICATION (8). (according to 3GPP Rel-19, TS 29.128 v19.1.0)","TRUE"
+"2d3e33412a8a","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Col1=MO; Col2=Management Object
+Col1=MuD; Col2=Multi-Device
+Q: In this specification, the abbreviation “MO” is defined as “Management Operation”. (according to 3GPP Rel-19, TS 24.175 v19.0.0)","FALSE"
+"2e32e73ea2ef","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+- c) Step b) shall be repeated for the following frequency band: - for a GSM 900, DCS 1800 or GSM 400 BSS, the band 851 – 866 MHz.
+-57 dBm for a GSM 900, DCS 1800 or GSM 400 BSS in the band 851 - 866 MHz;
+Q: For a GSM 900, DCS 1800 or GSM 400 BSS, the test band includes 851 – 866 MHz. (according to 3GPP Rel-19, TS 51.021 v19.0.0)","TRUE"
+"2e43892ea5d6","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The purpose of the network element identifier is to uniquely identify the relevant network element carrying out the LI operations, such as LI activation, IRI record sending, etc.
+Q: The Network element identifier (NEID) is a mandatory parameter for identifying the network element that carries out LI operations. (according to 3GPP Rel-19, TS 33.108 v19.0.0)","TRUE"
+"3204aa68df06","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Status=Required; Occurrence=One; Format=chr; Min. Access Types=Get, Replace
+This leaf node indicates the connectivity service that the ProSe UE-to-network relay provides to public safety applications as specified in 3GPP TS 23.303 [6].
+Q: What is the defined Format for the /OffNetwork/MCPTTGroupParameter/<x>/RelayServiceCode leaf node? (according to 3GPP Rel-19, TS 24.483 v19.0.0)
+A) str
+B) chr
+C) int","B"
+"32273935642b","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+For example, the ephemeris data set may be broadcast every 90 s, and Almanac may be broadcast once every several hours. The mobile station which does not require E-OTD and/or DGPS assistance can wake up at 90 s intervals, download these data, and then go back to sleep.
+The Ephemeris and Clock Correction data set needs to be broadcast once every 90 s. The period for broadcasting the data set is chosen to provide the entire ephemeris (three subframes) in a reasonable amount of time. For 8 satellites, it would take 12 minutes. The Almanac and Other Data data set can be broadcast every several hours. To deliver the entire data set within 6 minutes, 12 broadcasts with a 30 s rate are required.
+Q: The ephemeris data set is broadcast once every several hours. (according to 3GPP Rel-19, TS 44.035 v19.0.0)","FALSE"
+"32c4de67f53e","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+SmsRegistrationInfo:
+  description: SMS Registration Information (IP-SM-GW number and SC address)
+  type: object
+  required:
+    - ipSmGwNumber
+Data type=SmsRegistrationInfo; P=M; Cardinality=1; Response codes=200 OK; Description=A response body containing the SMS registration information.
+Q: Which attribute in the **SmsRegistrationInfo** type is defined as mandatory (M) in the specification? (according to 3GPP Rel-19, TS 29.562 v19.1.0)
+A) ipSmGwNumber
+B) accessType
+C) ipSmGwAddress
+D) accessInfo
+E) scAddress","A"
+"34065a557925","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The first quarter of an RLP frame to be transmitted shall contain the E2 and E3 bit code 00 as shown in Table 1. The second quarter contains the code 01, etc.
+Q: The first quarter of an RLP frame to be transmitted shall contain the E2 and E3 bit code **01**. (according to 3GPP Rel-19, TS 48.020 v19.0.0)","FALSE"
+"38539637a63a","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+NOTE 1: 33.6kbit/s FNURs is applicable only for UTRAN.
+Fixed Network User Rate=28.8 kbit/s; Access Structure=Synch; Information Transfer Capability=3,1 kHz; Rate Adaptation=-; QoS attributes=T; UTRAN=Supported; GERAN Iu mode=Supported; GERAN A/Gb=Supported
+Q: In the “BS 30 transparent for Multimedia” table, which Fixed Network User Rate is stated as applicable only for UTRAN? (according to 3GPP Rel-19, TS 22.002 v19.0.0)
+A) 33.6 kbit/s
+B) 56 kbit/s
+C) 32.0 kbit/s
+D) 28.8 kbit/s","A"
+"3929c34fa21e","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Type of channel=Wideband Adaptive full rate speech TCH (12,65 kbit/s); net bit rate (kbit/s)=12,65; block length (bits)=253; block recurrence (ms)=20
+Q: The third column value for the “Wideband Adaptive full rate speech TCH (12,65 kbit/s)” entry is 253. (according to 3GPP Rel-19, TS 45.001 v19.0.0)","TRUE"
+"3cca935f28c6","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+- Up to 32 common E-DCH resources can be configured in the cell and are broadcast by system information 5/5bis;
+- Multiple MAC-d flows can be configured which are common for all E-DCH resources configured in the cell;
+Q: What is the maximum number of common E‑DCH resources that can be configured in a cell? (according to 3GPP Rel-19, TS 25.319 v19.0.0)
+A) 24
+B) 16
+C) 32
+D) 40
+E) 48","C"
+"403dd4d84e80","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The S-CSCF Reassignment Pending Flag is temporary data and is stored in the HSS.
+The S-CSCF Reassignment Pending Flag, described in 3GPP TS 29.228 [43] indicates that the subscription can be reassigned to a new S-CSCF (i.e. the current S-CSCF is not responding).
+Q: The S‑CSCF Reassignment Pending Flag is stored as temporary data in the HSS. (according to 3GPP Rel-19, TS 23.008 v19.0.0)","TRUE"
+"48afc659fe50","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Col1=0; Col2=The absolute location of the target UE not requested
+Q: Which bit in octet 3 indicates whether the absolute location of the target UE is requested? (according to 3GPP Rel-19, TS 24.514 v19.2.0)
+A) Octet 3, bit 3
+B) Octet 3, bit 4
+C) Octet 3, bit 2
+D) Octet 3, bit 1","B"
+"4b1d9d98fb41","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Mobile Originated CUG call authorisation.
+Authorisation of a MO CUG call is performed by the serving VLR. Authorisation is determined by the information provided by the user, the subscription information stored in the VLR and the MO CUG call authorisation function, see Functions clause.
+Q: According to the specification, which network entity is responsible for determining a subscriber’s authorization for a mobile‑originated CUG call? (according to 3GPP Rel-19, TS 23.085 v19.0.0)
+A) HLR
+B) MME
+C) VLR
+D) SGW","C"
+"4c3e34a2a8f7","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+PS pool-area 1 includes areas 1 and 5; PS pool-area 2 includes areas 2, 3, 6, and 7. Connections show that MSC 1, 2, and 3 serve areas 1, 2, 5, and 6; MSC 4, 5, and 6 serve areas 2, 3, 6, and 7; MSC 7 serves areas 4 and 8.
+RAN nodes are arranged in areas 1 through 8. Area 1 contains two RAN nodes. Areas 2, 3, 6, and 7 each contain one RAN node. Areas 4 and 8 each contain two RAN nodes. Dashed lines define pool-areas: CS pool-area 1 includes areas 1, 2, 5, and 6; CS pool-area 2 includes areas 2, 3, 6, and 7;
+Q: CS pool-area 1 includes areas 2, 3, 6, and 7. (according to 3GPP Rel-19, TS 23.236 v19.0.0)","FALSE"
+"539112daaacc","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Scenario=BSMR environmental supervision; Max. allowed end-to-end latency=30s; Communication Service Availability=99%; Reliability=99.9%; User-experienced data rate=<1kbit/s (Note 1); Message Size=96bits; Device density=1.5/m 2 (Note 2); Communication Range=30m indoors; Service area dimension=NA; Device speed=Stationary; Transfer interval=NA; Positioning service latency=NA; Positioning service availability=NA; Positioning Accuracy=NA | NOTE1: The data rate generated by temperature, humidity, water-logging monitoring is typically less than 1kbit/s. ; NOTE2: The device density is calculated based on an individual BSMR, where typically about 20 Ambient IoT devices are required in one BSMR and the dimension of a typical BSMR is around 12 m 2 .
+Q: The maximum allowed end-to-end latency for the BSMR environmental supervision scenario is 10 seconds. (according to 3GPP Rel-19, TS 22.840 v19.0.0)","FALSE"
+"54ff378b9ed0","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+During the power-up period a BS modem, antenna modem or a RET control unit shall exhibit the circuit equivalent of a DC power consumer with a current consumption of maximum 400 mA in parallel with a capacitor of maximum 0.5 µF.
+Q: What is the maximum current consumption specified for a BS modem, antenna modem, or RET control unit during the 3‑second power‑up period? (according to 3GPP Rel-19, TS 37.461 v19.0.0)
+A) 300 mA
+B) 400 mA
+C) 500 mA
+D) 1.0 A","B"
+"566f693a1450","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+- randomly select, with equal probability, an integer value in the interval [5, 15] for the resource reservation interval higher than or equal to 100ms, in the interval [10, 30] for the resource reservation interval equal to 50ms or in the interval [25, 75] for the resource reservation interval equal to 20ms, and set *SL\_RESOURCE\_RESELECTION\_COUNTER* to the selected value;
+- use the randomly selected resource to select a set of periodic resources spaced by the resource reservation interval for transmission opportunities of SCI and SL-SCH corresponding to the number of transmission opportunities of MAC PDUs determined in clause 14.1.1.4B of TS 36.213 [2];
+Q: According to the specification, which interval is used for a resource reservation interval equal to 50 ms? (according to 3GPP Rel-19, TS 36.321 v19.2.0)
+A) [25, 75]
+B) [10, 32]
+C) [10, 30]
+D) [5, 15]","C"
+"5674bdd89d21","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The format for retransmission packets is shown in Figure 6.9.2.1-1. The sequence number of the source RTP packet, i.e., the Original Sequence Number (OSN), is inserted into the first two octets of the RTP payload as the payload header. The remaining payload corresponds to the original RTP packet payload.
+Q: In retransmission packets, the Original Sequence Number (OSN) is inserted into the first four octets of the RTP header. (according to 3GPP Rel-19, TS 26.822 v19.1.0)","FALSE"
+"5a8590c176d0","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+In principle, any network node (in non-UDC networks) that stores user data while no session is ongoing and that performs application logic is a candidate for separation of user data and application logic:
+It is understood that a network node's application logic is running in sessions, which last for a limited duration. During a session the application logic makes use of user data, i.e. user data cannot be separated from the application logic while a session is ongoing. Only when no session is ongoing user data can be separated from the application logic.
+Q: According to the text, a network node that stores user data while no session is ongoing but does not perform application logic is not a candidate for separation of user data and application logic. (according to 3GPP Rel-19, TS 23.335 v19.0.0)","FALSE"
+"5ff019f69168","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+PCWN --> Busy{Busy subscriber?}
+    Busy -- Yes --> NDUB{NDUB?}
+    Busy -- No --> NSR{No subscriber reply?}
+Busy -- Yes --> CCBS_UDUB[CCBS_ICH_
+Handle_UDUB]
+    Busy -- No --> Absent{Absent
+subscriber?}
+    Absent -- Yes --> Report_Fail[CCBS_ICH_VLR_
+Q: In the ICH VLR flowchart, when the decision node “Busy subscriber?” is answered **Yes**, which block is executed next? (according to 3GPP Rel-19, TS 23.018 v19.0.0)
+A) CCBS_ICH_Report_Failure
+B) CCBS_ICH_Handle_UDUB
+C) Radio_Congestion_Procedure
+D) Complete_Call_Neg_Response","B"
+"68fad7ecca5e","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Idle frames are numbered from 1 to 31 [odd numbers]
+Q: Idle frames are numbered from 0 to 30. (according to 3GPP Rel-19, TS 43.064 v19.0.0)","FALSE"
+"68fbc3929c01","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+3. The ICS UE A sends a CS call disconnect message to the MSC Server to release the existing CS access leg.
+ICS_UE_A->>MSC_Server: 3. CS call disconnect
+    MSC_Server->>MGCF: 4. REL
+    MGCF->>I_S_CSCF: 5. BYE
+Q: After the ICS UE A sends a CS call disconnect, which message does the MSC Server send to the MGCF? (according to 3GPP Rel-19, TS 23.292 v19.0.0)
+A) REL message
+B) INVITE req
+C) 200 OK answer
+D) BYE message","A"
+"696a604879d1","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+If no key material is available this is considered as a GBA Bootstrapping failure and the USIM abandons the function. The status word '6985' (Conditions of use not satisfied) is returned.
+Q: What status word does the USIM return when no bootstrapped key material is available during the GBA bootstrapping procedure? (according to 3GPP Rel-19, TS 31.102 v19.1.0)
+A) 6985
+B) 6999
+C) 6310","A"
+"6be3dd973936","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The MS shall discard a CBS message in Message Identifier value range ""A000hex-AFFFhex"" unless it is received from:
+- HPLMN;
+- EHPLMN; or
+- PLMN that is equivalent to either HPLMN or EHPLMN.
+Date=2024-06; TSG=CP-104; TSG Doc=CP-241176; CR=0247; Rev=-; Cat=F; Subject/Comment=Message Identifier value range A000hex-AFFFhex in an SNPN that is equivalent to the subscribed SNPN; New version=18.5.0
+Q: According to the specification, which Message Identifier value range must the MS discard unless the message is received from the HPLMN, EHPLMN, or an equivalent PLMN? (according to 3GPP Rel-19, TS 23.041 v19.0.0)
+A) A000hex-AFFFhex
+B) 9000hex-9FFFhex
+C) C000hex-CFFFhex
+D) B000hex-BFFFhex","A"
+"730cc53d7536","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+For 2 downlink carriers of 43 dBm the power of third order intermodulation products in the UL operating bands for the external BS modem and antenna modem shall not exceed:
+- -130 dBm/100 kHz for frequencies $< 1$ GHz
+- -120 dBm/1 MHz for frequencies $\geq 1$ GHz
+For frequencies $\geq 1\text{GHz}$ the general emission limit is $-98\text{dBm}$ , except modem operating band UL frequencies where the emission limit is $-125 \text{ dBm}$ .
+Q: According to the specification, what is the maximum allowed power of third‑order intermodulation products for frequencies ≥ 1 GHz? (according to 3GPP Rel-19, TS 37.461 v19.0.0)
+A) -98 dBm/100 kHz
+B) -120 dBm/1 MHz
+C) -150 dBm/1 MHz
+D) -130 dBm/100 kHz","B"
+"77977859b09e","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+State transition model diagram for Explicit Call Transfer service. It shows two states: (Not Provisioned, Not Applicable, Not Active, Not Induced) and (Provisioned, Not Applicable, Active and Operative, Not Induced). A transition arrow labeled 'Provision' goes from the first state to the second. A transition arrow labeled 'Withdrawal' goes from the second state back to the first.
+state1 --> state2 : Provision
+    state2 --> state1 : Withdrawal
+Q: The state transition labeled “Withdrawal” moves the Explicit Call Transfer service from the “(Provisioned, Not Applicable, Active and Operative, Not Induced)” state back to the “(Not Provisioned, Not Applicable, Not Active, Not Induced)” state. (according to 3GPP Rel-19, TS 23.091 v19.0.0)","TRUE"
+"78fba787a308","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The shift row transformation shifts the last three rows of the *State* cyclically to the left, with each shifted row being shifted by a different offset. Specifically, row 0 is not shifted, row 1 is shifted by 1 byte, row 2 by 3 bytes and row 3 by 4 bytes.
+Diagram showing the shift row transformation. On the left is a 4x8 grid of 'a' values. A blue arrow points to the right. On the right is the transformed 4x8 grid. Row 0 is unchanged. Row 1 is shifted left by 1. Row 2 is shifted left by 3. Row 3 is shifted left by 4. This illustrates the cyclic shift of rows.
+Q: In the shift row transformation, row 2 is shifted left by 3 bytes. (according to 3GPP Rel-19, TS 35.235 v19.0.0)","TRUE"
+"7fec043a12b0","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The table 2 gives a relation between the AIUR, channel coding and number of substreams. As an example from table 2 : The wanted AIUR is 28,8 kbit/s, the number of substreams needed to support this rate is 2. Each individual substream shall be rate adapted as in the single slot case.
+Q: According to Table 2, how many substreams are required to support an AIUR of 28,8 kbit/s in transparent mode? (according to 3GPP Rel-19, TS 48.020 v19.0.0)
+A) 4
+B) 3
+C) 2","C"
+"83f52794c318","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The CBC may be connected to several BSCs/RNCs/MMEs/PWS-IWFs. The CBC may be connected to several CBEs. The CBC shall be responsible for the management of CBS messages including: - initiating broadcast by sending fixed length CBS messages to a BSC/RNC/eNodeB/NG-RAN node for each language provided by the cell, and where necessary padding the pages to a length of 82 octets (see 3GPP TS 23.038 [3]);
+Octet Number(s)=84; Parameter=CBS-Message-Information-Length 1
+Q: According to the specification, to what fixed length does the CBC pad CBS pages when initiating broadcast? (according to 3GPP Rel-19, TS 23.041 v19.0.0)
+A) 82 octets
+B) 84 octets
+C) 86 octets
+D) 80 octets","A"
+"86b85107acfa","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The following XML schema `inventoryNrm.xsd` is the NRM-specific schema for the Inventory Management NRM IRP IS alternative 1 defined in 3GPP TS 28.632 [1].
+Q: According to the specification excerpt, the XML schema **inventoryNrm.xsd** is defined for which alternative and referenced in which 3GPP TS? (according to 3GPP Rel-19, TS 28.633 v19.0.0)
+A) Alternative 1, defined in 3GPP TS 28.633
+B) Alternative 2, defined in 3GPP TS 28.632
+C) Alternative 1, defined in 3GPP TS 28.632
+D) Alternative 2, defined in 3GPP TS 32.616","C"
+"8e087f12fc0c","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The following bits within Octet 5 indicate: - Bit 2 – ICS (IMS Centralized Service): This flag is used to request ICS support.
+Message Type value (Decimal)=31; Message=SRVCC CS to PS Request; Reference=5.2.8; Initial=X
+Q: Bit 2, labeled ICS (IMS Centralized Service), is used to request IMS Centralized Service support. (according to 3GPP Rel-19, TS 29.280 v19.0.0)","TRUE"
+"8e161b9b75ba","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Description: The PDU type indicates the structure of the SYNC frame. The field takes the value of the PDU Type it identifies: i.e. ""0"" for PDU Type 0. The PDU type is in bit 4 to bit 7 in the first octet of the frame.
+Field length: 4 bits
+Q: What is the field length of the PDU Type field in a SYNC frame? (according to 3GPP Rel-19, TS 25.446 v19.0.0)
+A) 3 bits
+B) 1 octet
+C) 4 bits
+D) 5 bits","C"
+"913c26fa0f5f","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+When the Presence User Agent is located in an IMS UE the Pep reference point is implemented using the Gm, Mw and ISC reference points as defined in TS 23.002 [18].
+Q: Which reference points are used to implement the Pep reference point when the Presence User Agent is located in an IMS UE? (according to 3GPP Rel-19, TS 23.141 v19.0.0)
+A) Gm, Rx and Ut
+B) Mw, S1 and RAN
+C) Ut, Gm, S6a
+D) Gm, Mw and ISC","D"
+"967a0fc4c8d3","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Band=2500 - 2570 MHz; Maximum Level=-43 dBm(**); Measurement Bandwidth=3.84 MHz | NOTE: The requirements in Table 9.14 are based on a coupling loss of 70 dB between LCR TDD repeater and FDD Wide Area base stations.
+Q: The maximum spurious emission level for the 2500 – 2570 MHz band of an LCR TDD repeater is –43 dBm measured with a 3.84 MHz bandwidth. (according to 3GPP Rel-19, TS 25.153 v19.0.0)","TRUE"
+"9c9c86473198","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Index=15; Buffer Size (BS) value [bytes]=78 < BS <= 91; Index=47; Buffer Size (BS) value [bytes]=12043 < BS <= 14099
+Index=16; Buffer Size (BS) value [bytes]=91 < BS <= 107; Index=48; Buffer Size (BS) value [bytes]=14099 < BS <= 16507
+Q: Which index in the extended buffer size table corresponds to a Buffer Size (BS) range that includes 1500 bytes? (according to 3GPP Rel-19, TS 36.321 v19.2.0)
+A) Index 33
+B) Index 31
+C) Index 34
+D) Index 35
+E) Index 32","D"
+"9d8bdf3b0190","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Elementary Procedure=RAB Release Request; Message=RAB RELEASE REQUEST
+INITIATING MESSAGE UeRadioCapabilityMatchRequest
+        OUTCOME            UeRadioCapabilityMatchResponse
+        PROCEDURE CODE     id-UeRadioCapabilityMatch
+        CRITICALITY        ignore
+Q: The RANAP‑ELEMENTARY‑PROCEDURE **mBMSRABRelease** specifies a CRITICALITY of **ignore**. (according to 3GPP Rel-19, TS 25.413 v19.0.0)","TRUE"
+"9e1656e5b3dd","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The RS485 transmitter shall be set to drive the bus before the first start bit is sent and held active until the last stop bit is sent. The RS485 transmitter shall stop driving the bus within 20 bit-times after the last stop bit is sent.
+Q: Within how many bit-times must the RS485 transmitter stop driving the bus after the last stop bit is sent? (according to 3GPP Rel-19, TS 37.461 v19.0.0)
+A) 15 bit-times
+B) 10 bit-times
+C) 30 bit-times
+D) 20 bit-times
+E) 25 bit-times","D"
+"9e6cea4d28de","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Col1=$N_{\text{RB}}$; Col2=Transmission bandwidth configuration, expressed in resource blocks
+Col1=BW; Col2=Bandwidth
+Q: How is the transmission bandwidth configuration (BW_Config) defined in the specification? (according to 3GPP Rel-19, TS 38.195 v19.0.0)
+A) BW_Config = N_RB + SCS + 12 kHz
+B) BW_Config = N_RB × SCS × 12 kHz
+C) BW_Config = N_RB × 12 kHz × SCS
+D) BW_Config = N_RB × SCS × 15 kHz","B"
+"a1032cecf3e1","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+<ZeroOrOne/>
+      </Occurrence>
+      <Scope>
+        <Dynamic/>
+      </Scope>
+      <DFTitle>Configuration parameters for 3GPP PS data off.</DFTitle>
+The interior node contains configuration parameters for 3GPP PS data off.
+Q: The 3GPP_PS_data_off configuration parameter is defined with a permanent scope. (according to 3GPP Rel-19, TS 24.391 v19.0.0)","FALSE"
+"a20b56c1fe70","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Indication=CC to target; Value=2
+Indication=CC from target; Value=1
+Q: According to Table J.2.7, which numeric value corresponds to the direction indication “CC to target”? (according to 3GPP Rel-19, TS 33.108 v19.0.0)
+A) 1
+B) 4
+C) 0
+D) 3
+E) 2","E"
+"a211089bbc2b","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The sequence diagram illustrates the interaction for UE capability exchange using OPTIONS messages after a CS call is established. The participants are CUA#1, Intermediate IM CN subsystem entities, Intermediate CS entities, and CUA#2. The process begins with a CS Call Setup (1) between CUA#1 and CUA#2. CUA#1 then sends an OPTIONS message (2) to the Intermediate IM CN subsystem entities.
+When the CS call is already established, then the OPTIONS request is built using the tel URI that is the same as the calling number received in the SETUP Message from the already established CS call.
+Q: In the sequence diagram for UE capability exchange after a CS call is established, at which step is the OPTIONS request sent from the S‑SCF to the I‑SCF? (according to 3GPP Rel-19, TS 24.279 v19.0.0)
+A) Step (6)
+B) Step (5)
+C) Step (3)
+D) Step (4)
+E) Step (2)","E"
+"a234a85f3927","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+S-CSCF 1 is connected to SIP AS 1, which is connected to the central cloud. S-CSCF 2 is connected to SIP AS 2, which is also connected to the central cloud. S-CSCF 3 is connected to SIP AS 3 via an 'ISC' interface, and SIP AS 3 is connected to the central cloud.
+AS->>S-CSCF: 1. INVITE (UE SDP)[1]
+    S-CSCF-->>AS: 2. 100 (Trying)
+Q: S‑CSCF 2 is connected to SIP AS 2, and SIP AS 2 is also connected to the central cloud. (according to 3GPP Rel-19, TS 23.218 v19.0.0)","TRUE"
+"a52be9b00668","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Use case stage=Step 4 (M); Evolution/Specification=When the specified service type is started in the UE, the UE checks whether the streaming source is consistent with any of the streaming sources set by the request, and if yes, the UE collects relevant QoE information and send to the network.
+REQ-EUSPC-CON-5: The management system shall have a capability to request collection of end user service performance information for a specific service type provided by specific streaming sources. The request may include information of streaming sources for which the information shall be collected.
+Q: During the QoE information collection procedure, at which step does the UE verify that the streaming source matches the request before collecting QoE data? (according to 3GPP Rel-19, TS 28.404 v19.0.0)
+A) Step 3 (M)
+B) Step 2 (M)
+C) Step 4 (M)","C"
+"a5870ae5a5ef","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Push function: the function in the PLMN that receives the Push Data from the Push initiator. The push function is responsible for delivering the push data to the Push recipient.
+The typical mode of operation is as follows: - The Push function takes the responsibility of delivering the push data, optionally following the priority and delivery time parameters, to the Push Recipient and for providing feedback to the Push Initiator regarding delivery of the push data if requested by the Push Initiator.
+Q: Which entity is described as being responsible for delivering the push data to the push recipient? (according to 3GPP Rel-19, TS 22.174 v19.0.0)
+A) Push initiator
+B) Push function
+C) Push Data entity
+D) PLMN (Public)","B"
+"a910c6c74e0c","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+sequenceDiagram
+    participant Consumer
+    participant A-ADRF
+    Note right of A-ADRF: 2. A-ADRF determines storage approach
+    Consumer->>A-ADRF: 1. Data storage request
+A-ADRF->>A-ADRF: 2. A-ADRF determines storage approach
+    A-ADRF->>A-ADRF: 3. A-ADRF stores data/ analytics
+Q: Which entity determines the storage approach during the data storage subscription process illustrated in Figure 8.10.2.1‑1? (according to 3GPP Rel-19, TS 23.436 v19.3.0)
+A) DataProd
+B) ADAEsv
+C) A‑DCCF
+D) A‑ADRF
+E) Consumer","D"
+"a9181a3ed76b","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Supply voltage $V_B = 12,0 \pm 0,2$ V DC
+- pulse 4, level II, 5 pulses, with the characteristics as follows:
+Q: What is the specified supply voltage V_B for the pulse 4 test of 12 V DC powered equipment? (according to 3GPP Rel-19, TS 36.124 v19.0.0)
+A) 12,0 ± 0,2 V DC
+B) 12,5 ± 0,3 V DC
+C) 13,0 ± 0,5 V DC","A"
+"aab743c90550","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+<?xml version=""1.1"" encoding=""UTF-8""?>
+<!--
+  3GPP TS 28.669 Radio Planning Tool Access (RPTA) IRP
+Q: In the XML schema **rptaIRPHTTP.xsd**, the element **getPlannedDataResponse** includes a child element named **plannedDataOut**. (according to 3GPP Rel-19, TS 28.669 v19.0.0)","TRUE"
+"b0b86a873ce1","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+<xs:pattern value=""[A-Z]*""/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+<!-- service specific attributes can be defined here -->
+    </xs:extension>
+  </xs:complexContent>
+</xs:complexType>
+</xs:element>
+</xs:schema>
+Q: Which element defined in the XML schema template is associated with a type that restricts its value to uppercase alphabetic characters only? (according to 3GPP Rel-19, TS 24.623 v19.0.0)
+A) not-reachable
+B) presence-status
+C) no-answer
+D) international
+E) request-name","A"
+"b4da946df3ce","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+For Adaptive Multi-Rate speech the present document specifies the 16 kBit/s submultiplexing, both for the full and the half rate traffic channels (TCH/AFS, TCH/AHS, TCH/WFS and O-TCH/WHS). The specification for 8 kBit/s submultiplexing is given in 3GPP TS 48.061, both for the full and the half rate traffic channels (TCH/AFS and TCH/AHS).
+Additionally, the present document specifies the 32 kBit/s submultiplexing for Adaptive Multi-Rate Wideband speech. However it reuses the frame structure of the 16 kBit/s submultiplexing for Adaptive Multi-Rate speech.
+Q: The present document specifies the 8 kBit/s submultiplexing for Adaptive Multi-Rate Wideband speech. (according to 3GPP Rel-19, TS 48.060 v19.0.0)","FALSE"
+"bb0d6b53a5da","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+When the XCAP server responds with an HTTP 409 (Conflict) response where the XUI is a SIP URI, the WPA counter has not exceeded 3 and:
+- if the password is missing in the request, the XCAP server shall include a element; and
+- if the password is not correct, the XCAP server shall include an element.
+If the XCAP server receives a request for
+<xs:element name=""incorrect-password"" type=""ss:empty-element-type""/>
+  <xs:element name=""incorrect-xui-format"" type=""ss:empty-element-type""/>
+Q: Which HTTP status code does the XCAP server return when a password is missing or incorrect in the request? (according to 3GPP Rel-19, TS 24.623 v19.0.0)
+A) 409 Conflict
+B) 403 Forbidden
+C) 401 Unauthorized
+D) 400 Bad Request","A"
+"bd86a951800f","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The override category is only applicable within the HPLMN country.
+Override category between ISDNs/PLMNs. When a call originates in one ISDN/PLMN and terminates in another ISDN/PLMN and the COLR Supplementary Service is applied, the rules and regulations of the originating network shall apply.
+Q: According to the specification, the override category between a PLMN and a network providing connected line identification restriction is applicable under which condition? (according to 3GPP Rel-19, TS 22.081 v19.0.0)
+A) Only for calls in the visited PLMN.
+B) Only for calls between any PLMNs worldwide.
+C) Only for calls using ISDN networks.
+D) Only for calls within the HPLMN country.","D"
+"bfaa7663f898","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Parameter=Downlink power allocation; Col2=$\rho_A$; Test 1 in Table 8.2.1.1.1.1-2 Test 1 in Table B.2.1.1.1.1-3=-3; Test 2 in Table 8.2.1.1.1.1-2 Test 2 in Table 8.2.1.1.1.1-3=-3; Test 3 in Table 8.2.1.1.1.1-2=-3
+Parameter=Downlink power allocation; Unit=$\rho_A$; Value=dB 0
+Q: For all three tests, the downlink power allocation parameter ρ_A is set to -3. (according to 3GPP Rel-19, TS 36.102 v19.3.0)","FALSE"
+"c05141ddace9","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The diagram illustrates the VCS from a Proxy Function online charging architecture. It is divided into two service provider domains by a horizontal dashed line. Service Provider 2 contains the OCS. Service Provider 1 contains the Proxy Function, which is connected to the OCS via the Ro interface. Below the Proxy Function is the gsmSCF. The gsmSRF is connected to the gsmSCF. The gsmSRF is also connected to the GMSC.
+Diagram of VCS from a Proxy Function online charging architecture showing Service Provider 2 (OCS), Service Provider 1 (Proxy Function, gsmSCF), gsmSRF, HLR, gsmSSF, GMSC, MSC, and VLR with various interfaces like Ro, G, D, and B.
+Q: In the VCS online charging architecture, the Proxy Function is connected to the OCS via the G interface. (according to 3GPP Rel-19, TS 32.276 v19.0.0)","FALSE"
+"c4a40b85cbc1","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Information element=ADAE server ID; Status=M; Description=The identifier of the ADAE server.
+Information element=Target VAL server ID; Status=O; Description=This identifier shows the target VAL server for which the data collection subscription applies.
+Q: The ADAE server ID information element is marked as mandatory (M) in the data collection subscription request table. (according to 3GPP Rel-19, TS 23.436 v19.3.0)","TRUE"
+"c56fe2374050","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+[5.2.3.2.1 Definition] This IOC provides a description of the monitored entity.
+[5.2.2.1 Relationships] classDiagram
+    class PEEMeDescription {
+        <<SupportIOC>>
+    }
+    class PEEConfigInformation {
+        <<SupportIOC>>
+    }
+    class PEEMonitoredEntity {
+        <<ProxyClass>>
+    }
+Q: PEEMonitoredEntity is defined in section 5.2.3.2 of the specification. (according to 3GPP Rel-19, TS 28.305 v19.0.0)","FALSE"
+"c5d7151241a0","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+graph TD; Start([Idle]) --> PurgeMS[Purge MS]; PurgeMS --> CheckParams[Check Parameters]; CheckParams -.-> Ref[See TS 23.018]; CheckParams --> ResultPass{Result= Pass?}; ResultPass -- No --> NegResp1{Purge MS Negative Response}; NegResp1 --> Idle1([Idle]); ResultPass -- Yes --> SubKnown{Subscriber Known?}; SubKnown -- No --> NegResp2{Purge MS Negative Response}; NegResp2 --> Idle2([Idle]); SubKnown -- Yes --> VLRNo{Received VLR No. = Stored VLR No.?}; VLRNo -- Yes --> FlagMS1[Set Flag MS Purged for non-GPRS]; VLRNo -- No --> Ack{Purge MS Ack.}; FlagMS1 --> FlagTMSI1[Set Flag Freeze TMSI]; FlagTMSI1 --> SGSNNo{Received SGSN No. = Stored SGSN No.?}; SGSNNo -- Yes --> FlagMS2[Set Flag MS Purged for GPRS]; SGSNNo -- No --> Ack; FlagMS2 --> FlagPTMSI[Set Flag Freeze P-TMSI]; FlagPTMSI --> Ack; Ack --> Idle3([Idle]); NegResp2 --> NegResp3{Purge MS Negative Response}; NegResp3 --> Idle2; NegResp3 --> NegResp4{Set Negative Response= Unknown Subscriber}; NegResp4 --> Error[Report Error to O&M]; Error --> NegResp3;
+If the received VLR number and the stored VLR number do not match, the HLR sends Purge MS ack containing an empty result to indicate successful outcome. Since the MS is known by the HLR to be in a different VLR area, it is not appropriate to block mobile terminated calls or short messages to the MS, but the VLR which initiated the purging procedure can safely purge its record for the MS without freezing the TMSI.
+Q: When the subscriber is known and the received VLR number equals the stored VLR number, the process sets the flag “MS Purged for non‑GPRS”. (according to 3GPP Rel-19, TS 23.012 v19.0.0)","TRUE"
+"c6f050e07911","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+- In step 3, 5G ProSe Remote UE (UE-1) sends a unicast Direct Communication Request message to the selected 5G ProSe UE-to-Network Relay. The destination Layer-2 ID used to send the Direct Communication Request message shall be unicast Layer-2 ID as determined in step 1. The Direct Communication Request message includes:
+5G ProSe UE-to-UE Relay may send a unicast Direct Communication Request message to the target 5G ProSe End UE by setting the Destination Layer-2 ID with a received unicast Destination Layer-2 ID of the target 5G ProSe End UE as specified in clause 6.4.3.7. The Source Layer-2 ID is self-selected by the 5G ProSe UE-to-UE Relay.
+Q: The Destination Layer‑2 ID in the Direct Communication Request message must always be a unicast Layer‑2 ID. (according to 3GPP Rel-19, TS 23.304 v19.3.0)","TRUE"
+"c810e3184104","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+<DDFName/>
+</DFType>
+</DFProperties>
+<Node>
+  <NodeName>USSI_exempt</NodeName>
+  <DFProperties>
+    <AccessType>
+<ZeroOrOne/>
+      </Occurrence>
+      <Scope>
+        <Dynamic/>
+      </Scope>
+    </DFProperties>
+  </Node>
+</MgmtTree>
+Q: The **Name** node is defined with a **Permanent** scope in the USSI management object. (according to 3GPP Rel-19, TS 24.391 v19.0.0)","FALSE"
+"cb1431475866","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+If the called party does not subscribe to CLIP or the CLI is not available, then the called party's UE may treat an incoming IMS session as an independent IMS session and the called party may establish an independent IMS session with the calling party.
+If a calling party uses CLIR when establishing a CS call, either by subscription or per call basis, and the called party does not have CLIR override, then the called party's UE may treat an incoming IMS session as an independent IMS session and the called party may establish an independent IMS session with the calling party.
+Q: If the called party does not subscribe to CLIP, the called party's UE must reject the incoming IMS session and cannot establish an independent IMS session. (according to 3GPP Rel-19, TS 22.279 v19.0.0)","FALSE"
+"cce97d1068c4","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+CRITICALITY             reject
+    }
+    resourceStatusReporting FLAP-ELEMENTARY-PROCEDURE ::= {
+        INITIATING MESSAGE      ResourceStatusUpdate
+        PROCEDURE CODE          id-resourceStatusReporting
+IE/Group Name=Reporting Periodicity; Presence=O; IE type and reference=ENUMERATED (500ms, 1000ms, 2000ms, 5000ms, 10000 ms, ...); Semantics description=Periodicity that can be used for reporting of indicated measurements. Also used as the averaging window length for all measurement object if supported. This IE is ignored if the Registration Request IE is set to ""add"".; Criticality=YES; Assigned Criticality=ignore
+Q: What is the CRITICALITY setting for the **resourceStatusReporting** FLAP‑ELEMENTARY‑PROCEDURE? (according to 3GPP Rel-19, TS 38.473 v19.2.0)
+A) defer
+B) discard
+C) ignore
+D) reject","C"
+"cee2740c6236","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+If an error must be set as a result of the check ""terminate"", the user error ""unknown subscriber"" shall be used. If version 3 or higher of the MAP protocol is in use, then the diagnostic ""NPDB mismatch"" may be used.
+Q: If version 3 or higher of the MAP protocol is in use and an error must be set as a result of the check “terminate”, which diagnostic may be used? (according to 3GPP Rel-19, TS 23.066 v19.0.0)
+A) Subscriber error
+B) HPLMN mismatch
+C) Routing error
+D) NPDB mismatch","D"
+"d0a8f29c049a","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The avatar timing information data recorded at the MF or at the RTP sender (UE) can be transmitted to another entity by enhancing the RTCP XR packets, which are specified in IETF RFC 3611 [16]. The RTCP XR report is identified by payload type (PT) equal to 207, which refers to an extended report block message. For transmission of timing information data using RTCP XR messages, the block type (BT) defined in RFC 3611 [16] can be extended with a value TBD.
+Col1=RTP timestamp
+Q: The RTCP XR report is identified by payload type (PT) equal to 208. (according to 3GPP Rel-19, TS 26.264 v19.2.0)","FALSE"
+"d4c140e4ab78","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The message flows for satellite backhaul for each subscriber would be the same as in clause 5.2.2 of TS 32.255 [8]. The CHF produces CDRs which may be sent for wholesale charging which then can be used to aggregate and calculate the amount of charging data per UE for an SSP.
+The SMF and CEF interact with CHF using Nchf interface. The CHF produces CDRs which may be sent for wholesale charging which then can be used to aggregate and calculate the amount of charging data per UE for an SSP. The wholesale part is only included for completeness and is currently outside the scope of 3GPP SA5.
+Q: Solution #3.1 is titled “CDR in MNO for SSP to perform wholesale to MNO”. (according to 3GPP Rel-19, TS 28.846 v19.0.0)","FALSE"
+"d4c79376e20c","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The Network leaf represents one Mobile Network Code (MNC). This leaf provides a means, together with the Country leaf, for including information that can be used to indicate in which MCC and MNC the emergency call procedures over IMS are disabled.
+Q: What is the defined occurrence cardinality for the **Network** leaf in the IMS_EmergencyCalls management object? (according to 3GPP Rel-19, TS 24.305 v19.0.0)
+A) ZeroOrOne
+B) OneOrMore
+C) OneOrZero
+D) ZeroOrMore","A"
+"d56e3877589c","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+A. If the Media AF is deployed in the Trusted DN, it may directly invoke the *Npcf\_PolicyAuthorization* service at reference point N5, as specified in TS 29.514 [18].
+Q: If the Media AF is deployed in the Trusted DN, it may directly invoke the *Npcf_PolicyAuthorization* service at reference point N5. (according to 3GPP Rel-19, TS 26.510 v19.1.0)","FALSE"
+"d676aeec30b5","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+where SC is the service code defined in annex B and \*SI is an optional field which may be applicable to service SC. The ""n"" is a single digit used to indicate the numbering plan, profile, priority, etc. according to the service being applied. For simplicity of presentation, the leading \* is shown on the assumption that the action is to activate (switch on) the required service. However, for a deactivation (or switch off), this would become:
+Col1=Deactivation; Col2=:; Col3=#SC*SI#
+Q: In the service request syntax, the leading “*” character indicates a deactivation (switch off) of the service. (according to 3GPP Rel-19, TS 22.030 v19.0.0)","FALSE"
+"d78a682c6454","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The peak code domain error shall not exceed -30 dB at spreading factor 16.
+Parameter=Spreading factor; Value/description=16
+Q: According to the test requirements, what is the maximum allowed Peak Code Domain Error when the spreading factor is 16? (according to 3GPP Rel-19, TS 25.153 v19.0.0)
+A) -30 dB
+B) -28 dB
+C) -31 dB
+D) -32 dB
+E) -35 dB","A"
+"dbfb2b1e171e","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+In this example the MSISDN of the called party is +12134567897
+Specifically for this signalling flow, the IAM includes: - Calling Party number =12134587692
+Q: In the example, the ISUP Initial Address Message (IAM) contains the called party number +12134567897. (according to 3GPP Rel-19, TS 24.259 v19.0.0)","FALSE"
+"e00c99ed1f57","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The VLR may also allocate an optional identity for the MS at location updating: the Local Mobile Station Identity (see 3GPP TS 23.003 [3]).
+This procedure is used when an MS registers with a Visitor Location Register.
+Q: During the location updating procedure, which optional identity may the Visitor Location Register (VLR) allocate for the mobile station (MS)? (according to 3GPP Rel-19, TS 23.012 v19.0.0)
+A) Local Mobile Station Identity
+B) Temporary Mobile Subscriber Identity
+C) Global Unique Identifier","A"
+"e34168cebb16","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Col1=Event; Col2=conditions met
+Q: Which section number in the table of contents corresponds to the ""UE location information confirm"" dedicated control SAP? (according to 3GPP Rel-19, TS 23.110 v19.0.0)
+A) 6.2.3.1.6
+B) 6.2.2.4.1
+C) 6.2.4.1.1
+D) 6.2.3.1.5
+E) 6.2.3.1.7","A"
+"e76cb2e2f0fb","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+In addition to the case of Tracking Area Update, a Tracking Area/EPS Location Update REPORT Record shall also be sent in the following cases: - the target's UE performs an UE triggered service request.
+In case of inter-MME TAU, Tracking Area/EPS Location Update REPORT Record shall be sent in the following cases:
+- when the target's UE moves to the new MME.
+- optionally when the target's UE leaves the old MME.
+Q: According to the specification, in which of the following situations must a Tracking Area/EPS Location Update REPORT Record be sent? (according to 3GPP Rel-19, TS 33.108 v19.0.0)
+A) When the UE initiates a periodic registration update.
+B) When the UE releases a secondary PDN connection.
+C) When the UE performs an UE‑triggered service request.","C"
+"e873c3a8a71b","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+2. NRM server triggers via N5 the AF request procedure as described in 3GPP TS 23.502 [11] Annex F.2. The AF request includes the DS-TT port MAC address, TSC QoS information, TSC Assistance Information, flow bit rate, priority, Service Data Flow Filter containing flow description including Ethernet Packet Filters.
+sequenceDiagram
+    participant 5GS
+    participant NRM server
+    participant TSN CNC
+    Note left of NRM server: 1. Collect 5GS TSN Bridge information
+Q: Through which N‑interface does the NRM server trigger the AF request procedure in the TSN Bridge configuration? (according to 3GPP Rel-19, TS 23.434 v19.5.0)
+A) N2
+B) N1
+C) N5
+D) N6
+E) N3","C"
+"ec037bcd8eb5","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+- a) derived by means of the conversion functions c2 and c3 in the R99+ VLR/SGSN from a quintet that is: - ii) provided by the HLR/AuC, or
+The R99+ VLR/SGSN shall accept authentication if a valid SRES is received in response of a UMTS challenge (RAND, AUTN) over A or Gb-Interface. This will happen in case a UICC is inserted in a ME that is not capable of UMTS AKA and is attached to a GSM BSS. In this case the R99+ VLR/SGSN uses function c2 to convert RES (from the quintet) to SRES to verify the received SRES.
+Q: Which conversion function does the R99+ VLR/SGSN use to convert RES to SRES when authenticating a subscriber whose ME cannot perform UMTS AKA? (according to 3GPP Rel-19, TS 33.102 v19.0.0)
+A) It uses function c3 to convert RES to SRES.
+B) It uses function c1 to convert RES to SRES.
+C) It uses function c2 to convert RES to SRES.","C"
+"ee63abf5fb06","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+In this collaboration, the DVB-MABR *Multicast gateway* function could, for example, play the role of the 5MBS-Aware Application.
+- Contains a 5MBS-Aware Application (dashed green box) with a Rendez-vous service (blue box).
+Q: In Collaboration D, which function is cited as an example that could act as the 5MBS‑Aware Application? (according to 3GPP Rel-19, TS 26.802 v19.1.0)
+A) MBS‑7 Media Reassembly Service
+B) 5G Core Network Function (5GC NF)
+C) DVB‑MABR Multicast gateway
+D) UE Application Layer Manager","C"
+"eea91e42a160","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+NOTE: Step 2 applies to NCR if NCR-Fwd and NCR-MT are not transmitting simultaneously. Otherwise, Step 2a applies:
+- 2a) If NCR-Fwd and NCR-MT is transmitting simultaneously, set the input signal to the representative connectors under test according to the applicable test configuration in clause 4.7 using the corresponding test models NCRUL-FR1-TM1.1 for NCR-Fwd in clause 4.9.2 at the input power intended to produce the maximum rated output power, $P_{\text{in,p,AC}} + 10\text{dB}$ for NCR type 1-C and $P_{\text{in,p,TABC}} + 10\text{dB}$ for NCR type 1-H and NCRUL-FR1-TM1.1 for NCR-MT with declared maximum output power.
+NOTE 2: For joint transmission of NCR-Fwd and NCR-MT, $P_{\text{rated,c,sys}}$ shall apply to the total power of NCR-Fwd and NCR-MT
+Q: When NCR‑Fwd and NCR‑MT transmit simultaneously, the input signal for NCR type 1‑C is set to the maximum rated output power plus 10 dB (P₍in,p,AC₎ + 10 dB). (according to 3GPP Rel-19, TS 38.115-1 v19.0.0)","TRUE"
+"f1c2d060d4de","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The RA1"" function shall be used for converting between synchronous user rates of 48 and 56 kbit/s and the 'intermediate' rate of 64 kbit/s in A/Gb mode.
+The RA1' function is used to adapt between the synchronous data rates and the radio interface rates, i.e. it maps the data provided in the Iu UP SDUs into modified V.110 60 bit frame structure. It is specified in 3GPP TS 44.021.
+Q: The RA1' function is used to adapt between synchronous user rates of 48 kbit/s and 56 kbit/s and the intermediate rate of 64 kbit/s in A/Gb mode. (according to 3GPP Rel-19, TS 48.020 v19.0.0)","TRUE"
+"f3d308feeb31","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+[6.9.2.3.3 Test Requirements] For a *repeater type 1-C* operating at *passband* below 2496 MHz, the ACRR requirements in table 6.9.2.3.3-1 shall apply in downlink. In normal conditions the ACRR for downlink shall be higher than the value specified in the Table 6.9.2.3.3-1.
+Q: For a repeater type 1-C operating at a passband below 2496 MHz, the downlink ACRR requirements in Table 6.9.2.3.3‑1 shall apply. (according to 3GPP Rel-19, TS 38.115-1 v19.0.0)","TRUE"
+"f738de2f24be","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+- 2) a multipart/mixed body including: - a) an ""application/EmergencyCallData.Control+xml"" MIME body part as defined in RFC 8147 [244] containing a ""request"" element with an ""action"" attribute set to ""send-data"" and a ""datatype"" attribute set to ""eCall.MSD""; and
+NOTE: Further content for the INFO request is as defined in RFC 8147 [244].
+Q: When requesting an updated Minimum Set of Data (MSD) via an INFO request, which value must the **action** attribute be set to? (according to 3GPP Rel-19, TS 24.229 v19.2.0)
+A) update-data
+B) send-data
+C) retrieve
+D) store-data
+E) fetch-data","B"
+"f75c67c83d6b","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+Consumer->>ADAE_server: 1. Service API event subscription request
+    ADAE_server-->>ADAE_server: 2. Check authorization for subscription and store subscription info
+Q: The ADAE server sends a service API event subscription request to the CAPIF core function. (according to 3GPP Rel-19, TS 23.436 v19.3.0)","FALSE"
+"f799eebeb9c3","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+RTC3 is based on re-using the previously specified test configurations applicable per band involved in multi-band operation. It is constructed using the following method: - The number of carriers of each supported *operating band* shall be sufficient to fill all of the *passbands* with one or two carriers (depending on the passband bandwidth). Carriers shall be selected according to 4.7.2 and shall first be placed at the outermost edges of the declared repeater Radio Bandwidth. Additional carriers shall next be placed at the repeater RF Bandwidths edges, if possible.
+Parameter=Wanted signal type; Value=NR signal, filling all supported passbands in the operating band and with sufficient carriers to fill each passband . Minimum defined SCS for the operating band
+Q: The number of carriers of each supported operating band shall be sufficient to fill all of the passbands with one or two carriers, depending on the passband bandwidth. (according to 3GPP Rel-19, TS 38.115-1 v19.0.0)","TRUE"
+"f7c5035a42eb","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The CTM adapter automatically detects the presence of CTM encoding and provides the necessary conversion to the appropriate ITU-T Recommendation V.18 [4] modem encoding.
+Figure A.1: Association of a CTM adapter with the transcoder in the access network
+Q: The CTM adapter automatically detects CTM encoding and converts it to the ITU‑T Recommendation V.22 modem encoding. (according to 3GPP Rel-19, TS 23.226 v19.0.0)","FALSE"
+"feb8842f1250","Answer from context. Reply ONLY option letter (A-E) or TRUE/FALSE.
+
+Ctx:
+The phone book also contains the option of a second name entry. The amount of second name entries may be less than or equal to the amount of records in EF ADN . Each record contains a second name entry. This record cannot be shared between several phonebook entries.
+Content: - record identifier of the associated phone book entry.
+Q: An EF<PURI> record can be shared between several phonebook entries. (according to 3GPP Rel-19, TS 31.102 v19.1.0)","FALSE"
